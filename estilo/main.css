@@ -83,3 +83,12 @@ align-items: flex-start;
 .btn i{
     margin-right: 8px;
 }
+
+.container {
+margin-left: 30px;
+margin-right: 10px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}

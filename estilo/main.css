@@ -11,8 +11,8 @@
 
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
-    COLOR:#FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFF;
 }
 
 /*********************** HEADER ***********************/
@@ -43,7 +43,7 @@ header .container{
 
 .filme-principal{
 font-size: 16px;
-background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/capa-house.jpg');
+background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/capa1.jpg');
 background-size: cover;
 height: 400px;
 display: flex;
@@ -91,4 +91,23 @@ margin-right: 10px;
 
 .filme-principal .container{
     width: 70%;
+}
+
+/*********************** CARROSSEL ***********************/
+.carrossel-filmes{
+    margin-top: 5px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/*********************** FOOTER ***********************/
+
+footer p{
+ text-align: center;
+ padding:20px;   
+
 }

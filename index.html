@@ -5,13 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/main.css">
+    <!-- RESPONSIVIDADE -->
+    <link rel="stylesheet" href="estilo/responsive.css">
+    <!-- OWL -->
+    <link rel="stylesheet" href="estilo/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="estilo/owl/owl.theme.default.min.css">
     <title>MYMYFLIX</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h2> MYMYFLIX</h2>
+            <h2>MYMYFLIX</h2>
             <nav>
                 <a href="#">Início</a>
                 <a href="#">Séries</a>
@@ -24,23 +29,43 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3> HOUSE OF CARDS</h3>
-                <p>Nada pode impedir o político sem escrúpulo Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível!</p>
+                <h3> THE MIDNIGHT GOSPEL</h3>
+                <p>The Midnight Gospel acompanha as aventuras de Clancy, uma sonda espacial que abandonou o conforto de casa para explorar o universo e entrevistar os mais diversos tipos de criaturas sobre questões existenciais.</p>
                 <div>
-                    <button role="button" class="btn"><i class="fas fa-play"></i> ASSISTIR AGORA</button>
-                    <button role="button" class="btn"><i class="fas fa-info-circle"></i> MAIS INFORMAÇÕES </button>
+                    <a href="https://www.youtube.com/watch?v=0kQWAqjFJS0&ab_channel=Netflix"><button role="button" class="btn"><i class="fas fa-play"></i> ASSISTIR AGORA</button></a>
+                    <a href="https://pt.wikipedia.org/wiki/The_Midnight_Gospel"><button role="button" class="btn"><i class="fas fa-info-circle"></i> MAIS INFORMAÇÕES </button></a>
                 </div>
             </div>
-
-
         </div>
     </main>
 
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-filme" src="img/filme1.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/filme2.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/filme3.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/filme4.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/filme5.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/filme6.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/filme7.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/filme8.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/filme9.jpg"></div>
+            <div class="item"><img class="box-filme" src="img/filme10.jpg"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p> Desenvolvido por: Mylena Verspeelt </p>
+    </footer>
 
 
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/6a8f4de875.js" crossorigin="anonymous"></script>
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6a8f4de875.js" crossorigin="anonymous"></script>
+    <!-- OWL JS -->
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
 
 </html>

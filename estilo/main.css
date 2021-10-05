@@ -12,7 +12,7 @@
 body {
     background: var(--preto);
     font-family: Arial, Helvetica, sans-serif;
-    color:#FFF;
+    color: #FFF;
 }
 
 /*********************** HEADER ***********************/
@@ -33,7 +33,8 @@ nav a {
 nav a:hover {
     color: #fff;
 }
-header .container{
+
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,31 +42,30 @@ header .container{
 
 /*********************** MAIN ***********************/
 
-.filme-principal{
-font-size: 16px;
-background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('img/capa.jpg');
-background-size: cover;
-height: 400px;
-display: flex;
-flex-direction:column;
-justify-content: center;
-align-items: flex-start;
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url('img/capa.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.filme-principal h3{
+.filme-principal h3 {
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     margin-top: 15%;
 }
 
-
-.filme-principal p{
+.filme-principal p {
     margin-bottom: 40px;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
-.btn{
-    background-color: rgba(0,0,0,.50);
+.btn {
+    background-color: rgba(0, 0, 0, .50);
     border: none;
     color: #fff;
     padding: 15px 30px;
@@ -75,30 +75,31 @@ align-items: flex-start;
     transition: .3s ease all;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #fff;
     color: black;
 }
 
-.btn i{
+.btn i {
     margin-right: 8px;
 }
 
 .container {
-margin-left: 30px;
-margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
 }
 
-.filme-principal .container{
+.filme-principal .container {
     width: 70%;
 }
 
 /*********************** CARROSSEL ***********************/
-.carrossel-filmes{
+
+.carrossel-filmes {
     margin-top: 5px;
 }
 
-.box-filme{
+.box-filme {
     height: 100%;
     width: 100%;
     display: block;
@@ -106,8 +107,7 @@ margin-right: 10px;
 
 /*********************** FOOTER ***********************/
 
-footer p{
- text-align: center;
- padding:20px;   
-
+footer p {
+    text-align: center;
+    padding: 20px;
 }

@@ -1,20 +1,32 @@
 @media screen and (max-width:700px) {
+    header {
+        padding: 15px 0;
+    }
+    a {
+        margin-top: 15px;
+        margin-right: 10px;
+    }
     header .container {
         display: flex;
         flex-direction: column;
     }
-
-.btn {
-    margin-top: 5px;
-    width: 300px;
+    .btn {
+        margin-top: 5px;
+        width: 300px;
+    }
 }
+
+@media screen and (min-width:1000px) {
+    .filme-principal p {
+        width: 50%;
+    }
 }
 
-@media screen and (min-width:1000px){
-.filme-principal p{
-    width: 50%;
-} 
-
-
-
+@media screen and (max-width: 400px) {
+    a {
+        margin-right: 2px;
+    }
+    .filme-principal {
+        height: 500px;
+    }
 }

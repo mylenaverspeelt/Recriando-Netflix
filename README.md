@@ -1,6 +1,7 @@
 # Mymyflix!
 
-Netflix-inspired streaming platform, with all my favorites animated series!
+Netflix-inspired (and responsive) streaming platform, with all my favorites animated series!
+
 
 Project developed on the BootCamp Impulso React Web Developer by @DIO
 

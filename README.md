@@ -6,7 +6,7 @@ Project developed on the BootCamp Impulso React Web Developer by @DIO
 
 To check the page just click on the link: https://mylenaverspeelt.github.io/Recriando-Netflix/
 
-<img src="./assets/read-me-github.png"/>
+<img src="./estilo/img/mymyflix.png"/>
 
 <h3 align="left">Tech Stacks & Tools</h3>
     <div align="left">
